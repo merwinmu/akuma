@@ -118,7 +118,7 @@ const theme = createMuiTheme({
       })
     }
     else{
-      window.alert("MetaMask nicht installiert");
+      window.alert("MetaMask not installed");
     }
   };
 
@@ -134,7 +134,7 @@ function App() {
     };
 
     const opengithub = () => {
-      var url = "http://google.ch/";
+      var url = "https://github.com/merwinmu/akuma";
       window.console.log(url);
       window.open(url);
     };
